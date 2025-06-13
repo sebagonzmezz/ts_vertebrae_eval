@@ -10,6 +10,7 @@ El dataset a utilizar corresponde a un subconjunto del dataset original de Total
 
 # Métricas
 Utilzar índice Dice para evaluar la segmentación generada por TotalSegmentator, comparándola con las máscaras generadas manualmente por expertos.
+
     - Presentar métrica DICE
     - Presentar ejemplo de resultados usando slicer3D
     - Presentar 3 ejemplos buenos y 3 malos
