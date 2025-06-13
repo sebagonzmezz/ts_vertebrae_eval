@@ -1,3 +1,39 @@
+# Configuración
+
+Para poder correr el código del ejemplo:
+
+1. **Crear un entorno virtual** (elige una de las siguientes opciones):
+
+   - **Conda**:
+     ```bash
+     conda create --name myenv python=3.10 -y
+     conda activate myenv
+     ```
+
+   - **venv** (incluido en Python):
+     ```bash
+     python -m venv myenv
+     source myenv/bin/activate        # Linux/macOS
+     myenv\Scripts\activate           # Windows
+     ```
+
+   - **virtualenv**:
+     ```bash
+     pip install virtualenv
+     virtualenv myenv
+     source myenv/bin/activate        # Linux/macOS
+     myenv\Scripts\activate           # Windows
+     ```
+
+2. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/usuario/repositorio.git
+   cd repositorio
+
+3. **Instalar dependencias**:
+   ```bash
+   pip install -r requirements.txt
+
 # Objetivo
 Evaluar un modelo de segmentación de órganos en tomografías computarizadas.
 
